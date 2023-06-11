@@ -53,7 +53,7 @@
   <div class="container text-center tulisan">
     <div class="row">
       <div class="col-sm-6 col-md-6 col-lg-6">
-        <img class="dokter" style="margin-top: 50px;" src="awal.png" alt="" width="510px">
+        <img class="dokter" style="margin-top: 50px;" src="dokter.png" alt="" width="460px">
       </div>
       <div class="col-sm-6 col-md-6 col-lg-6">
         <img style="margin-top: 50px;" src="profil.png" alt="" width="100px">
@@ -63,22 +63,21 @@
 
         <!--Button-->
         <form>
-          <div class="mb-3">
-            <label for="no-rm" class="form-label"></label>
-            <input type="text" class="form-control" id="input-text" placeholder="No. Rekam Medis">
-          </div>
+            <div class="mb-3">
+                <select id="disabledSelect" class="form-select">
+                  <option>Poliklinik</option>
+                  <option>Klinik Bedah</option>
+                  <option>Klinik Anak</option>
+                  <option>Klinik Urologi</option>
+                  <option>Klinik Penyakit Dalam</option>
+                  <option>Klinik Mata</option>
+                </select>
+              </div>
           <div class="mb-3">
             <input type="text" class="form-control" id="input-text" placeholder="Nama Lengkap">
           </div>
           <div class="mb-3">
-            <select id="disabledSelect" class="form-select">
-              <option>Poliklinik</option>
-              <option>Klinik Bedah</option>
-              <option>Klinik Anak</option>
-              <option>Klinik Urologi</option>
-              <option>Klinik Penyakit Dalam</option>
-              <option>Klinik Mata</option>
-            </select>
+            <input type="text" class="form-control" id="input-text" placeholder="Alamat Lengkap">
           </div>
           <div class="mb-3">
             <select id="disabledSelect" class="form-select">
@@ -94,10 +93,9 @@
             <input id="umur" name="tgl_lahir" type="text" class="form-control" placeholder="Umur" />
           </div>
           <div class="d-grid gap-2">
-            <a href="gagal.html" style="border-radius: 15px;" class="btn btn-primary" type="button">Kirim</a>
+            <a href="submit.html" style="border-radius: 15px;" class="btn btn-primary" type="button">Submit</a>
           </div>
-          <p style="font-weight: lighter; font-family: poppins; font-size: 14px; margin-top: 10px;">Belum Terdaftar? <a
-              style="font-weight: bold; font-style: normal; color:black;" href="daftar.html">Daftar Sekarang</a></p>
+         
         </form>
         <!--Akhir Button-->
 
